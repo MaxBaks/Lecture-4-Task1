@@ -1,5 +1,3 @@
-import Character from './domain';
-
 const getHealthStatus = (newChar) => {
   if (newChar.health > 50) {
     return 'healthy';
